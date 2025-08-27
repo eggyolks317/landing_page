@@ -59,3 +59,45 @@ p {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.information_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 100px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+
+}
+#info_header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info_text {
+    width: 200px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;;
+}
