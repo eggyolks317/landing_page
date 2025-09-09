@@ -143,3 +143,13 @@ p {
     border-color: #F9FAF8;
     box-shadow: none;
 }
+.footer {
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+}
+#footer_text {
+    color: #F9FAF8;
+    font-weight: lighter;
+    font-size: 10px;
+}
