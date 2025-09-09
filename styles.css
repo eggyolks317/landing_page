@@ -48,6 +48,7 @@ button {
     color: #E5E7EB;
     border-radius: 15px;
     border-color: transparent;
+    cursor: pointer;
 }
 #hero_text {
     font-size: 48px;
@@ -117,4 +118,28 @@ p {
     font-size: 18px;
     font-weight: bold;
     color: #1F2937;
+}
+.call_to_action {
+    padding: 50px 100px;
+}
+#blue_rectangle{
+    background-color:#3882F6;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#call_to_action_header {
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+#call_to_action_small {
+    color: #F9FAF8;
+    font-weight: lighter;
+}
+#call_to_action_button {
+    border: solid;
+    border-color: #F9FAF8;
+    box-shadow: none;
 }
